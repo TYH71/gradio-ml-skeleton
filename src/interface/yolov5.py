@@ -59,7 +59,7 @@ YOLOv5 is open-sourced by Ultralytics for open source and academic proejcts unde
 """
 
 examples = [
-    ["examples\ash_ketchum_world_champion_screenshot_3.webp", 0.25, 0.3]
+    ["examples/ash_ketchum_world_champion_screenshot_3.webp", 0.25, 0.3]
 ]
 
 yolov5_demo = gr.Interface(
