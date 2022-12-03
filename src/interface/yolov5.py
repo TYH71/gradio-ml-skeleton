@@ -58,6 +58,10 @@ ARTICLE = """
 YOLOv5 is open-sourced by Ultralytics for open source and academic proejcts under a **GPL 3.0 License**.
 """
 
+examples = [
+    ["examples\ash_ketchum_world_champion_screenshot_3.webp", 0.25, 0.3]
+]
+
 yolov5_demo = gr.Interface(
     fn=yolov5_demo_fn,
     inputs=[
@@ -71,7 +75,7 @@ yolov5_demo = gr.Interface(
     title="YOLOv5 Object Detection",
     description=DESCRIPTION,
     article=ARTICLE,
-    examples=list(map(lambda x: [x, 0.25, 0.3], glob.glob("examples/*"))),
+    examples=examples,
     allow_flagging="never"
 )
 logger.info("YOLOv5 Interface Built")
