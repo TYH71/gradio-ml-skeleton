@@ -75,7 +75,7 @@ yolov5_demo = gr.Interface(
     title="YOLOv5 Object Detection",
     description=DESCRIPTION,
     article=ARTICLE,
-    examples=examples,
+    # examples=examples,
     allow_flagging="never"
 )
 logger.info("YOLOv5 Interface Built")
