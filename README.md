@@ -1,3 +1,14 @@
+---
+title: Gradio ML Skeleton
+emoji: 💀
+colorFrom: red
+colorTo: pink
+sdk: gradio
+sdk_version: 3.8.2
+app_file: app.py
+pinned: false
+---
+
 # Gradio Model Server Skeleton
 
 This repository contains a Gradio skeleton application which can be used to rapid prototype a demonstration app for your next machine learning/deep learning model.
