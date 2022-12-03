@@ -133,3 +133,6 @@ yolov5*.pt
 
 # Gradio
 flagged/
+
+# git
+.git/
